@@ -6,15 +6,23 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 
+
+
+.toast {
+    position: relative;
+    margin-left: 350px;
+    margin-top: -160px;
+}
+
+
 @media only screen and (max-width: 768px) and (min-width: 350px) {
     .carousel-item img {
         height: 500px;
     }
 
-    /* .container {
+    .reverse {
         display: flex;
         flex-direction: column-reverse;
-    } */
-
+    }
 
 }
