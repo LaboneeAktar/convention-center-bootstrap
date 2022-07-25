@@ -5,3 +5,16 @@ body {
 h1 {
     font-family: 'Lobster', cursive;
 }
+
+@media only screen and (max-width: 768px) and (min-width: 350px) {
+    .carousel-item img {
+        height: 500px;
+    }
+
+    /* .container {
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+
+
+}
